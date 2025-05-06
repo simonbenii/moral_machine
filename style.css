@@ -11,6 +11,30 @@ h1 {
   margin-bottom: 2rem;
 }
 
+button {
+  background-color: #3498db;
+  color: white;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
 .accordion {
   background-color: #3498db;
   color: white;
@@ -83,4 +107,11 @@ h1 {
 
 .card strong {
   color: #2c3e50;
+}
+
+.decision {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
 }
